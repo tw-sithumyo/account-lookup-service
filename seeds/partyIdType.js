@@ -63,7 +63,11 @@ const partyIdTypes = [
   {
     name: 'THIRD_PARTY_LINK',
     description: 'TBD'
-  }
+  },
+  {
+    name: 'MERCHANT_PAYINTOID',
+    description: 'An alias value is used to reference to a checkout counter of a particular merchant. The MERCHANT_PAYINTOID identifier value can be a sequence of code.'
+  },
 ]
 
 exports.seed = async function (knex) {
